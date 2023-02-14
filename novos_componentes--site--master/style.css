@@ -1,0 +1,234 @@
+header{
+    background: linear-gradient(blue,orange);
+    padding: 20px 0;
+}
+
+.caixa-superior{
+    position: relative;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+.imagens{
+    position: relative;
+    width: auto;
+    margin: 0 10px 30px 0;
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+nav li{
+    display: inline; /*vai deixar a lista inline */
+    margin: 0 0 0 15px;/*espaçamento entre os intens do menu */
+    text-align: end;
+}
+
+nav a{/*letras do menu */
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+
+main{
+    background: linear-gradient(#09D9C3,#dfb55b);
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h4{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.primeira{
+    font-size: 20px;
+    color:black;
+    text-align: justify;
+    padding: 3em 0;
+    line-height: 1.5;
+    /*text-indent: 1em;*/
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.primeira h3{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.primeira p{
+    text-align: left;
+    
+}
+
+.primeira li{
+    text-indent: 0;
+    text-indent: 2em;
+}
+
+.segunda{
+    font-size: 20px;
+    color:black;
+    text-align: justify;
+    padding: 3em 3em 0 3em;
+    line-height: 1.5;
+    /*text-indent: 1em;*/
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.segunda h3{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.terceira{
+    font-size: 20px;
+    color:black;
+    text-align: justify;
+    padding: 3em 3em 3em 3em;;
+    line-height: 1.5;
+    /*text-indent: 1em;*/
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.terceira h3{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+
+.video{
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+footer{
+    background: linear-gradient(#81d6ce,#83F016);
+    padding: 0.5%;
+    text-align: center;
+    width: auto;
+    height: auto;
+        
+}
+
+
+
+
+
+
